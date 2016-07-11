@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body{
-  background-color: #D0E0C0;
+  background-color: #FFFF99;
 }
 
 #main{
@@ -17,7 +17,7 @@ body{
   margin-right: 30px;
 }
 
-.curry_picture:after{
+.kimuti_picture:after{
   content: "";
   clear: both;
   display: block;
@@ -43,22 +43,6 @@ dt{
   padding: 10px;
   border: none;
   font-size: 16px;
-}
-
-.btn:hover {/* マウスが乗った時 */
-  opacity: 0.7;
-}
-
-.btn:active {/* ボタンを押した瞬間 */
-  color: white;
-}
-
-.btn-submit {/* okボタンだけの設定 */
-  background-color: silver;
-}
-
-.btn-reset {/* リセットボタンだけの設定 */
-  background-color: lightcoral;
 }
 
 #ingredient{
