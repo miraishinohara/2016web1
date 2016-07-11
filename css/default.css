@@ -5,7 +5,7 @@ body{
 }
 
 #main{
-  width: 1024px; /* 960-2*(80[padding]+1[border])  */
+  width: 950px; /* 960-2*(80[padding]+1[border])  */
   margin: 40px auto;
   padding: 40px 80px;
   border: green 1px solid;
@@ -25,7 +25,7 @@ body{
 
 .explanation{
   float: left;
-  width: 468px;
+  width: 600px;
 }
 
 dt{
