@@ -19,6 +19,12 @@ var update = function(){
       counter[2] + '時間' + 
       counter[1] + '分' + 
       counter[0] + '秒だよ！！！！';
-    refresh();// タイマーを起動
+    refresh();
   }
 }
+
+var refresh= function(){
+  setTimeout(update, 1000);
+}
+update();
+
